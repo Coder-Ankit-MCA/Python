@@ -8,7 +8,7 @@ def check_armstrong(start,end):
     armstrong_no = []
     for num in range(start,end+1):
         if is_armstrong(num):
-            armstrong_numberappend(num)
+            armstrong_number.append(num)
     return armstrong_no
 
 try:
