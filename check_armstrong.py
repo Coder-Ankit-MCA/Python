@@ -18,9 +18,9 @@ try:
         raise ValueError("\nThe first number should be less than the second number")
     result = check_armstrong(start,end)
     if result:
-        print(f"Armstrong numbers between {start} and {end}: {result}")
+        print(f"\nArmstrong numbers between {start} and {end}: {result}")
     else:
-        print(f"No armstrong number found between {start} and {end}")
+        print(f"\nNo armstrong number found between {start} and {end}")
 
 except ValueError as e:
     print("Error: \nPlease enter Valid numbers.", e)
